@@ -24,10 +24,10 @@ public class CategorieProduitServiceImplTest {
     @Test
     public void testAddCategorieProduit() {
         CategorieProduit categorieProduit = new CategorieProduit();
-        categorieProduit.setCodeCategorie("Test CategorieProduit");
+        categorieProduit.setCodeCategorie("Test CategorieProduit2");
         categorieProduitRepository.save(categorieProduit);
         CategorieProduit result = categorieProduitServiceImpl.addCategorieProduit(categorieProduit);
-        assertEquals("Test CategorieProduit", result.getCodeCategorie());
+        assertEquals("Test CategorieProduit2", result.getCodeCategorie());
     }
 
 }

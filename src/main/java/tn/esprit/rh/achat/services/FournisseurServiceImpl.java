@@ -19,6 +19,10 @@ import java.util.List;
 public class FournisseurServiceImpl implements IFournisseurService {
 
 	@Autowired
+	public FournisseurServiceImpl(FournisseurRepository fournisseurRepository) {
+		this.fournisseurRepository = fournisseurRepository;
+	}
+	@Autowired
 	FournisseurRepository fournisseurRepository;
 	@Autowired
 	DetailFournisseurRepository detailFournisseurRepository;
