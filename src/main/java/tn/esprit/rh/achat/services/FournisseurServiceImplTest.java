@@ -30,20 +30,15 @@ public class FournisseurServiceImplTest {
 
     @Test
     public void testRetrieveFournisseur() {
-        // Create a sample Fournisseur object
         Fournisseur fournisseur = new Fournisseur("f1", "123", CategorieFournisseur.ORDINAIRE);
-        fournisseur.setIdFournisseur(1L); // Set the ID
+        fournisseur.setIdFournisseur(1L);
 
-        // Mock the behavior of the fournisseurRepository
         Mockito.when(fournisseurRepository.findById(Mockito.anyLong())).thenReturn(Optional.of(fournisseur));
 
-        // Create an instance of FournisseurServiceImpl (you may need to inject the repository)
         fournisseurService = new FournisseurServiceImpl(fournisseurRepository);
 
-        // Call the method to be tested
         Fournisseur fournisseur1 = fournisseurService.retrieveFournisseur(1L);
 
-        // Assert that the result is not null
         Assertions.assertNotNull(fournisseur1);
     }
 }

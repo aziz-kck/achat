@@ -16,9 +16,9 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CategorieProduitServiceImplTest {
 
     @Autowired
-    private CategorieProduitServiceImpl categorieProduitServiceImpl;
+    public CategorieProduitServiceImpl categorieProduitServiceImpl;
     @Autowired
-    private CategorieProduitRepository categorieProduitRepository;
+    public CategorieProduitRepository categorieProduitRepository;
 
 
     @Test
