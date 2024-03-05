@@ -27,3 +27,12 @@ u
 Esrc/main/java/tn/esprit/rh/achat/services/FournisseurServiceImpl.java,0\5\057af105a019c29e96644d109d1404c5fe41a363
 y
 Isrc/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java,0\6\06fa79ef263c653a6f19108cb9be0f3ec2575945
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+w
+Gsrc/main/java/tn/esprit/rh/achat/controllers/ProduitRestController.java,4\4\44049d0dceb7e63b9cff4011ee7654aee115e79c
+f
+6src/main/java/tn/esprit/rh/achat/AchatApplication.java,b\4\b413c620a5bd35e10018a5ab6033974f72b71423
+|
+Lsrc/main/java/tn/esprit/rh/achat/controllers/CategorieProduitController.java,c\1\c1a89e2c5d5f3966bce3e096d96c2d018b79d69f

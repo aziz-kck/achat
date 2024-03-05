@@ -17,7 +17,7 @@ public class CategorieProduitController {
 	ICategorieProduitService categorieProduitService;
 	
 	// http://localhost:8089/SpringMVC/categorieProduit/retrieve-all-categorieProduit
-	@GetMapping("/retrieve-all-categorieProduit")
+	@GetMapping("/c")
 	@ResponseBody
 	public List<CategorieProduit> getCategorieProduit() {
 		List<CategorieProduit> list = categorieProduitService.retrieveAllCategorieProduits();
