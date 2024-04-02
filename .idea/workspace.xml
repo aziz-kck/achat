@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" afterDir="false" />
     </list>
@@ -87,7 +88,7 @@
       <recent name="tn.esprit.rh.achat.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FournisseurServiceImplTest.testRetrieveFournisseur">
+  <component name="RunManager" selected="Spring Boot.AchatApplication">
     <configuration name="CategorieProduitServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
@@ -188,7 +189,7 @@
       <workItem from="1709829788683" duration="4333000" />
       <workItem from="1710166559996" duration="1090000" />
       <workItem from="1710235235552" duration="1024000" />
-      <workItem from="1712043571189" duration="3447000" />
+      <workItem from="1712043571189" duration="3856000" />
     </task>
     <servers />
   </component>
