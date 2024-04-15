@@ -16,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +191,8 @@
       <workItem from="1710166559996" duration="1090000" />
       <workItem from="1710235235552" duration="1024000" />
       <workItem from="1712043571189" duration="4555000" />
-      <workItem from="1712052207817" duration="679000" />
+      <workItem from="1712052207817" duration="1314000" />
+      <workItem from="1713186307057" duration="805000" />
     </task>
     <servers />
   </component>
