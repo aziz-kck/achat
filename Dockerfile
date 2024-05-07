@@ -20,7 +20,7 @@ WORKDIR /app
 
 
 COPY mvnw pom.xml ./
-COPY .mvn/ .mvn
+#COPY .mvn/ .mvn
 RUN chmod +x mvnw
 RUN ./mvnw dependency:resolve
 
