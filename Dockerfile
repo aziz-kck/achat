@@ -3,8 +3,8 @@
 #WORKDIR /app
 #COPY target/achat-1.0.jar /app/achat.jar
 #CMD ["java", "-jar", "achat.jar"]
-FROM adoptopenjdk/openjdk17:alpine-jre
-
+#FROM adoptopenjdk/openjdk17:alpine-jre
+FROM oracle/graalvm-ce:17
 # Installation du client MySQL
 RUN apt-get update && apt-get install -y default-mysql-client
 
