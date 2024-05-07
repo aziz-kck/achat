@@ -11,8 +11,7 @@ RUN apt-get update && apt-get install -y default-mysql-client
 WORKDIR /app
 
 # Copie du jar de l'application dans le conteneur
-COPY target/achat-1.0.jar /app/achat.jar
-
+COPY achat-1.0.jar /app/achat.jar
 # Commande pour démarrer l'application
 CMD ["java", "-jar", "achat.jar"]
 
