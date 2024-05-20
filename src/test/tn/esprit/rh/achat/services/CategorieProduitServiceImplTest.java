@@ -10,16 +10,13 @@ import tn.esprit.rh.achat.repositories.CategorieProduitRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class CategorieProduitServiceImplTest {
-
+class CategorieProduitServiceImplTest {
     @Autowired
     public CategorieProduitServiceImpl categorieProduitServiceImpl;
     @Autowired
     public CategorieProduitRepository categorieProduitRepository;
-
 
     @Test
     public void testAddCategorieProduit() {

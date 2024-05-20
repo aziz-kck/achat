@@ -1,6 +1,5 @@
 tn\esprit\rh\achat\repositories\OperateurRepository.class
 tn\esprit\rh\achat\repositories\SecteurActiviteRepository.class
-tn\esprit\rh\achat\services\CategorieProduitServiceImplTest.class
 tn\esprit\rh\achat\services\FournisseurServiceImpl.class
 tn\esprit\rh\achat\services\OperateurServiceImpl.class
 tn\esprit\rh\achat\controllers\ReglementRestController.class
