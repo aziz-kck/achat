@@ -1,0 +1,26 @@
+
+W	java:S125"<This block of commented-out lines of code should be removed.(Ê¯©8–½İ°ù1
+_
+java:S1128"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(œ³«õøÿÿÿÿ8˜½İ°ù1
+T
+java:S1128"7Remove this unused import 'org.junit.jupiter.api.Test'.(Öºˆß8š½İ°ù1
+V
+java:S1128"4Remove this unused import 'org.mockito.InjectMocks'.(Ó§óµşÿÿÿÿ8›½İ°ù1
+J
+java:S1128"-Remove this unused import 'org.mockito.Mock'.(´ëò÷8œ½İ°ù1
+R
+java:S1128"0Remove this unused import 'org.mockito.Mockito'.(áòöˆıÿÿÿÿ8½İ°ù1
+o
+java:S1128"MRemove this unused import 'tn.esprit.rh.achat.entities.CategorieFournisseur'.(â¸Èûÿÿÿÿ8Ÿ½İ°ù1
+a
+java:S1128"DRemove this unused import 'tn.esprit.rh.achat.entities.Fournisseur'.(‘ù¢ş8¡½İ°ù1
+o
+java:S1128"RRemove this unused import 'tn.esprit.rh.achat.repositories.FournisseurRepository'.(Í“®8¢½İ°ù1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ûœ°ù1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8²°ù1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¤½İ°ù1
+_
+java:S1128"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(âè¨ùÿÿÿÿ8³°ù1
