@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe6e3b36-9d4e-4182-91d0-5a2862110414" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" afterDir="false" />
-    </list>
+    <list default="true" id="fe6e3b36-9d4e-4182-91d0-5a2862110414" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +59,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/azizk/OneDrive/Documents/GitHub/achat",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
@@ -93,7 +78,7 @@
       <recent name="tn.esprit.rh.achat.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CategorieProduitServiceImplTest">
+  <component name="RunManager" selected="Spring Boot.AchatApplication">
     <configuration name="CategorieProduitServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
@@ -212,6 +197,9 @@
       <workItem from="1713862593003" duration="1207000" />
       <workItem from="1716159954384" duration="4925000" />
       <workItem from="1716202140238" duration="8249000" />
+      <workItem from="1716301243113" duration="2726000" />
+      <workItem from="1716382541757" duration="74000" />
+      <workItem from="1717536477309" duration="125000" />
     </task>
     <servers />
   </component>

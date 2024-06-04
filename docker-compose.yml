@@ -16,7 +16,7 @@ services:
       - mynetwork
 
   devops:
-    image: azizk99/application-achat:latest
+    image: azizk99/application-springboot:1.0
     depends_on:
       - mysqldb
     restart: on-failure
