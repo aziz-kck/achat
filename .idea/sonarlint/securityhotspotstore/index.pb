@@ -40,3 +40,5 @@ y
 Isrc/main/java/tn/esprit/rh/achat/services/SecteurActiviteServiceImpl.java,3\2\32b3d8f077f3fcf4a5b9c9bb14cf0639da0bf07d
 y
 Isrc/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java,e\0\e02944300ed24fc97307989bbea5f869a1fc2528
+u
+Esrc/main/java/tn/esprit/rh/achat/controllers/StockRestController.java,2\2\2217e1a178510d28a7fc03ee4626b1821fa022bd
