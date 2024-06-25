@@ -14,31 +14,31 @@ import java.util.List;
 	SecteurActiviteRepository secteurActiviteRepository;
 	@Override
 	public List&lt;SecteurActivite&gt; retrieveAllSecteurActivite() {
-<span class="nc" id="L17">		return (List&lt;SecteurActivite&gt;) secteurActiviteRepository.findAll();</span>
+<span class="fc" id="L17">		return (List&lt;SecteurActivite&gt;) secteurActiviteRepository.findAll();</span>
 	}
 
 	@Override
 	public SecteurActivite addSecteurActivite(SecteurActivite sa) {
-<span class="nc" id="L22">		secteurActiviteRepository.save(sa);</span>
-<span class="nc" id="L23">		return sa;</span>
+<span class="fc" id="L22">		secteurActiviteRepository.save(sa);</span>
+<span class="fc" id="L23">		return sa;</span>
 	}
 
 	@Override
 	public void deleteSecteurActivite(Long id) {
-<span class="nc" id="L28">		secteurActiviteRepository.deleteById(id);</span>
+<span class="fc" id="L28">		secteurActiviteRepository.deleteById(id);</span>
 		
-<span class="nc" id="L30">	}</span>
+<span class="fc" id="L30">	}</span>
 
 	@Override
 	public SecteurActivite updateSecteurActivite(SecteurActivite sa) {
-<span class="nc" id="L34">		secteurActiviteRepository.save(sa);</span>
-<span class="nc" id="L35">		return sa;</span>
+<span class="fc" id="L34">		secteurActiviteRepository.save(sa);</span>
+<span class="fc" id="L35">		return sa;</span>
 	}
 
 	@Override
 	public SecteurActivite retrieveSecteurActivite(Long id) {
-<span class="nc" id="L40">		SecteurActivite secteurActivite = secteurActiviteRepository.findById(id).orElse(null);</span>
-<span class="nc" id="L41">		return secteurActivite;</span>
+<span class="fc" id="L40">		SecteurActivite secteurActivite = secteurActiviteRepository.findById(id).orElse(null);</span>
+<span class="fc" id="L41">		return secteurActivite;</span>
 	}
 
 }

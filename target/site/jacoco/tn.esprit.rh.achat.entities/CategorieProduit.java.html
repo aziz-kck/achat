@@ -32,5 +32,12 @@ public class CategorieProduit implements Serializable {
 	@OneToMany(mappedBy = &quot;categorieProduit&quot;)
 	@JsonIgnore
 <span class="nc" id="L34">	private Set&lt;Produit&gt; produits;</span>
+
+	public void setId(Long categoryId) {
+<span class="fc" id="L37">	}</span>
+
+	public Double getId() {
+<span class="nc" id="L40">		return null;</span>
+	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

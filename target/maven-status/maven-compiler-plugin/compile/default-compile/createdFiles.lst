@@ -1,7 +1,6 @@
 tn\esprit\rh\achat\services\FournisseurServiceImpl.class
 tn\esprit\rh\achat\services\OperateurServiceImpl.class
-tn\esprit\rh\achat\services\FournisseurServiceImplTest.class
-tn\esprit\rh\achat\services\ProduitServiceImpl.class
 tn\esprit\rh\achat\services\SecteurActiviteServiceImpl.class
 tn\esprit\rh\achat\services\StockServiceImpl.class
+tn\esprit\rh\achat\services\ProduitServiceImpl.class
 tn\esprit\rh\achat\util\SpringFoxSwaggerConfig.class

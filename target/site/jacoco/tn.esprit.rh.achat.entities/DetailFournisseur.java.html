@@ -17,7 +17,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-<span class="nc" id="L20">@Setter</span>
+<span class="pc" id="L20">@Setter</span>
 <span class="nc" id="L21">@AllArgsConstructor</span>
 <span class="fc" id="L22">@NoArgsConstructor</span>
 public class DetailFournisseur implements Serializable{
@@ -27,7 +27,7 @@ public class DetailFournisseur implements Serializable{
 <span class="nc" id="L27">	private Long idDetailFournisseur;</span>
 <span class="nc" id="L28">	private String email;</span>
 	@Temporal(TemporalType.DATE)
-<span class="nc" id="L30">	private Date dateDebutCollaboration;</span>
+<span class="fc" id="L30">	private Date dateDebutCollaboration;</span>
 <span class="nc" id="L31">	private String adresse;</span>
 <span class="nc" id="L32">	private String matricule;</span>
 	@OneToOne(mappedBy=&quot;detailFournisseur&quot;)

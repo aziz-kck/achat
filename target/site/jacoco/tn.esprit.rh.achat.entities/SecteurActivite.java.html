@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 <span class="nc" id="L18">@Setter</span>
-<span class="nc" id="L19">@AllArgsConstructor</span>
+<span class="fc" id="L19">@AllArgsConstructor</span>
 <span class="fc" id="L20">@NoArgsConstructor</span>
 public class SecteurActivite implements Serializable{
 	/**
@@ -25,8 +25,8 @@ public class SecteurActivite implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-<span class="nc" id="L28">	private Long idSecteurActivite;</span>
-<span class="nc" id="L29">	private String codeSecteurActivite;</span>
+<span class="fc" id="L28">	private Long idSecteurActivite;</span>
+<span class="fc" id="L29">	private String codeSecteurActivite;</span>
 <span class="nc" id="L30">	private String libelleSecteurActivite;</span>
 	@ManyToMany(mappedBy=&quot;secteurActivites&quot;)
 	@JsonIgnore

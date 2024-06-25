@@ -13,22 +13,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Facture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Operateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Operateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FactureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FactureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ProduitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ProduitServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/FactureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/FactureServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/OperateurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/OperateurServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/ProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/ProduitServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/ReglementServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/ReglementServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/SecteurActiviteServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/SecteurActiviteServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/StockServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/StockServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Facture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Facture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Operateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Operateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FactureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FactureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FournisseurServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/ProduitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/ProduitServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +103,8 @@
       <recent name="tn.esprit.rh.achat.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecteurActiviteServiceImplTest">
-    <configuration name="OperateurServiceImplTest.testAddOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CategorieProduitServiceImplTest">
+    <configuration name="CategorieProduitServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -112,61 +113,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
-      <option name="METHOD_NAME" value="testAddOperateur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperateurServiceImplTest.testDeleteOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="achat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
-      <option name="METHOD_NAME" value="testDeleteOperateur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperateurServiceImplTest.testUpdateOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="achat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
-      <option name="METHOD_NAME" value="testUpdateOperateur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReglementServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="achat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.ReglementServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecteurActiviteServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CategorieProduitServiceImplTest.testRetrieveAllCategorieProduits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -175,7 +128,53 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.SecteurActiviteServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
+      <option name="METHOD_NAME" value="testRetrieveAllCategorieProduits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactureServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FactureServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FournisseurServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FournisseurServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperateurServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SecteurActiviteServiceImplTest" />
-        <item itemvalue="JUnit.ReglementServiceImplTest" />
-        <item itemvalue="JUnit.OperateurServiceImplTest.testDeleteOperateur" />
-        <item itemvalue="JUnit.OperateurServiceImplTest.testUpdateOperateur" />
-        <item itemvalue="JUnit.OperateurServiceImplTest.testAddOperateur" />
+        <item itemvalue="JUnit.CategorieProduitServiceImplTest" />
+        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testRetrieveAllCategorieProduits" />
+        <item itemvalue="JUnit.FactureServiceImplTest" />
+        <item itemvalue="JUnit.FournisseurServiceImplTest" />
+        <item itemvalue="JUnit.OperateurServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +248,7 @@
       <workItem from="1718208494560" duration="1604000" />
       <workItem from="1718287626677" duration="18000" />
       <workItem from="1718977396597" duration="1332000" />
-      <workItem from="1719332827807" duration="7809000" />
+      <workItem from="1719332827807" duration="8440000" />
     </task>
     <servers />
   </component>

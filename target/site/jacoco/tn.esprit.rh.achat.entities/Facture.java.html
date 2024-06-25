@@ -19,7 +19,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-<span class="nc" id="L22">@Setter</span>
+<span class="pc" id="L22">@Setter</span>
 <span class="nc" id="L23">@AllArgsConstructor</span>
 <span class="fc" id="L24">@NoArgsConstructor</span>
 public class Facture implements Serializable {
@@ -27,7 +27,7 @@ public class Facture implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-<span class="nc" id="L30">	private Long idFacture;</span>
+<span class="fc" id="L30">	private Long idFacture;</span>
 <span class="nc" id="L31">	private float montantRemise;</span>
 <span class="nc" id="L32">	private float montantFacture;</span>
 	@Temporal(TemporalType.DATE)
@@ -44,6 +44,10 @@ public class Facture implements Serializable {
     @JsonIgnore
 <span class="nc" id="L45">    private Set&lt;Reglement&gt; reglements;</span>
 
-	
+	public boolean isArchivee() {
+<span class="fc" id="L48">		return this.archivee;</span>
+	}
+
+
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

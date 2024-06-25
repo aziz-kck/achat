@@ -21,7 +21,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-<span class="nc" id="L24">@Setter</span>
+<span class="pc" id="L24">@Setter</span>
 <span class="nc" id="L25">@AllArgsConstructor</span>
 <span class="fc" id="L26">@NoArgsConstructor</span>
 public class Fournisseur implements Serializable {
@@ -31,30 +31,30 @@ public class Fournisseur implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 <span class="nc" id="L33">	private Long idFournisseur;</span>
-<span class="nc" id="L34">	private String code;</span>
+<span class="fc" id="L34">	private String code;</span>
 <span class="nc" id="L35">	private String libelle;</span>
 	@Enumerated(EnumType.STRING)
 <span class="nc" id="L37">	private CategorieFournisseur  categorieFournisseur;</span>
 	@OneToMany(mappedBy=&quot;fournisseur&quot;)
 	@JsonIgnore
-<span class="nc" id="L40">	private Set&lt;Facture&gt; factures;</span>
+<span class="fc" id="L40">	private Set&lt;Facture&gt; factures;</span>
     @ManyToMany
     @JsonIgnore
 <span class="nc" id="L43">    private Set&lt;SecteurActivite&gt; secteurActivites;</span>
     @OneToOne(cascade= CascadeType.ALL,fetch=FetchType.EAGER)
-<span class="nc" id="L45">    private DetailFournisseur detailFournisseur;</span>
+<span class="fc" id="L45">    private DetailFournisseur detailFournisseur;</span>
 
-<span class="nc" id="L47">	public Fournisseur(Long idFournisseur, String code, String libelle, CategorieFournisseur categorieFournisseur) {</span>
-<span class="nc" id="L48">		this.idFournisseur = idFournisseur;</span>
-<span class="nc" id="L49">		this.code = code;</span>
-<span class="nc" id="L50">		this.libelle = libelle;</span>
-<span class="nc" id="L51">		this.categorieFournisseur = categorieFournisseur;</span>
-<span class="nc" id="L52">	}</span>
+<span class="fc" id="L47">	public Fournisseur(Long idFournisseur, String code, String libelle, CategorieFournisseur categorieFournisseur) {</span>
+<span class="fc" id="L48">		this.idFournisseur = idFournisseur;</span>
+<span class="fc" id="L49">		this.code = code;</span>
+<span class="fc" id="L50">		this.libelle = libelle;</span>
+<span class="fc" id="L51">		this.categorieFournisseur = categorieFournisseur;</span>
+<span class="fc" id="L52">	}</span>
 
-<span class="nc" id="L54">	public Fournisseur(String code, String libelle, CategorieFournisseur categorieFournisseur) {</span>
-<span class="nc" id="L55">		this.code = code;</span>
-<span class="nc" id="L56">		this.libelle = libelle;</span>
-<span class="nc" id="L57">		this.categorieFournisseur = categorieFournisseur;</span>
-<span class="nc" id="L58">	}</span>
+<span class="fc" id="L54">	public Fournisseur(String code, String libelle, CategorieFournisseur categorieFournisseur) {</span>
+<span class="fc" id="L55">		this.code = code;</span>
+<span class="fc" id="L56">		this.libelle = libelle;</span>
+<span class="fc" id="L57">		this.categorieFournisseur = categorieFournisseur;</span>
+<span class="fc" id="L58">	}</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

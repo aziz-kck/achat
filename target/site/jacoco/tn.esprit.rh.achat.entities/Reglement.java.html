@@ -18,15 +18,15 @@ import lombok.Setter;
 @Entity
 @Getter
 <span class="nc" id="L20">@Setter</span>
-<span class="nc" id="L21">@AllArgsConstructor</span>
+<span class="fc" id="L21">@AllArgsConstructor</span>
 <span class="fc" id="L22">@NoArgsConstructor</span>
 public class Reglement implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-<span class="nc" id="L28">	private Long idReglement;</span>
-<span class="nc" id="L29">	private float montantPaye;</span>
+<span class="fc" id="L28">	private Long idReglement;</span>
+<span class="fc" id="L29">	private float montantPaye;</span>
 <span class="nc" id="L30">	private float montantRestant;</span>
 <span class="nc" id="L31">	private Boolean payee;</span>
 	@Temporal(TemporalType.DATE)
