@@ -13,16 +13,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/CategorieProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/CategorieProduit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Operateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Operateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FactureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FactureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ProduitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ProduitServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/CategorieProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/CategorieProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Facture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Facture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Operateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/entities/Operateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FactureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FactureServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/FournisseurServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/ProduitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/rh/achat/services/ProduitServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.rh.achat.services.CategorieProduitServiceImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/rh/achat/services/CategorieProduitServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,6 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/controllers/ProduitRestController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/CategorieProduit.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/entities/Produit.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImplTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -97,8 +102,8 @@
       <recent name="tn.esprit.rh.achat.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CategorieProduitServiceImplTest.testDeleteCategorieProduit">
-    <configuration name="CategorieProduitServiceImplTest.testDeleteCategorieProduit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SecteurActiviteServiceImplTest">
+    <configuration name="OperateurServiceImplTest.testAddOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
-      <option name="METHOD_NAME" value="testDeleteCategorieProduit" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
+      <option name="METHOD_NAME" value="testAddOperateur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorieProduitServiceImplTest.testRetrieveAllCategorieProduits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperateurServiceImplTest.testDeleteOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -123,14 +128,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
-      <option name="METHOD_NAME" value="testRetrieveAllCategorieProduits" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
+      <option name="METHOD_NAME" value="testDeleteOperateur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorieProduitServiceImplTest.testRetrieveCategorieProduit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperateurServiceImplTest.testUpdateOperateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -139,14 +144,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
-      <option name="METHOD_NAME" value="testRetrieveCategorieProduit" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.OperateurServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdateOperateur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorieProduitServiceImplTest.testRetrieveCategorieProduit_NotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReglementServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -155,14 +160,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
-      <option name="METHOD_NAME" value="testRetrieveCategorieProduit_NotFound" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.ReglementServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorieProduitServiceImplTest.testUpdateCategorieProduit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecteurActiviteServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
@@ -171,9 +175,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
-      <option name="METHOD_NAME" value="testUpdateCategorieProduit" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.SecteurActiviteServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testDeleteCategorieProduit" />
-        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testUpdateCategorieProduit" />
-        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testRetrieveCategorieProduit_NotFound" />
-        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testRetrieveAllCategorieProduits" />
-        <item itemvalue="JUnit.CategorieProduitServiceImplTest.testRetrieveCategorieProduit" />
+        <item itemvalue="JUnit.SecteurActiviteServiceImplTest" />
+        <item itemvalue="JUnit.ReglementServiceImplTest" />
+        <item itemvalue="JUnit.OperateurServiceImplTest.testDeleteOperateur" />
+        <item itemvalue="JUnit.OperateurServiceImplTest.testUpdateOperateur" />
+        <item itemvalue="JUnit.OperateurServiceImplTest.testAddOperateur" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,7 @@
       <workItem from="1718208494560" duration="1604000" />
       <workItem from="1718287626677" duration="18000" />
       <workItem from="1718977396597" duration="1332000" />
-      <workItem from="1719332827807" duration="3936000" />
+      <workItem from="1719332827807" duration="7809000" />
     </task>
     <servers />
   </component>
@@ -266,5 +269,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CategorieProduitServiceImplTest_java$AchatApplication.ic" NAME="AchatApplication Coverage Results" MODIFIED="1716211069047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CategorieProduitServiceImplTest_java$FournisseurServiceImplTest_testAddFournisseur.ic" NAME="FournisseurServiceImplTest.testAddFournisseur Coverage Results" MODIFIED="1719339379225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tn.esprit.rh.achat.services.*</FILTER>
+    </SUITE>
   </component>
 </project>

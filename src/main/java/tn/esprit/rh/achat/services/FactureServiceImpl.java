@@ -7,14 +7,13 @@ import tn.esprit.rh.achat.entities.*;
 import tn.esprit.rh.achat.repositories.*;
 
 import javax.transaction.Transactional;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Service
 @Slf4j
 @Transactional
 public class FactureServiceImpl implements IFactureService {
+
 
 	@Autowired
 	FactureRepository factureRepository;
@@ -93,8 +92,9 @@ public class FactureServiceImpl implements IFactureService {
 	@Override
 	public List<Facture> getFacturesByFournisseur(Long idFournisseur) {
 		Fournisseur fournisseur = fournisseurRepository.findById(idFournisseur).orElse(null);
-		return (List<Facture>) fournisseur.getFactures();
+		return fournisseur != null ? new ArrayList<>(fournisseur.getFactures()) : Collections.emptyList();
 	}
+
 
 	@Override
 	public void assignOperateurToFacture(Long idOperateur, Long idFacture) {
