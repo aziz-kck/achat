@@ -20,16 +20,11 @@ public class FactureRestController {
     @Autowired
     IFactureService factureService;
 
-//    @GetMapping("/retrieve-all-factures")
-//    @ResponseBody
-//    public List<Facture> getFactures() {
-//        List<Facture> list = factureService.retrieveAllFactures();
-//        return list;
-//    }
     @GetMapping("/retrieve-all-factures")
     @ResponseBody
     public List<Facture> getFactures() {
-        return factureService.retrieveAllFactures();
+        List<Facture> list = factureService.retrieveAllFactures();
+        return list;
     }
 
     @GetMapping("/retrieve-facture/{facture-id}")
@@ -39,17 +34,13 @@ public class FactureRestController {
     }
 
 
-//    @PostMapping("/add-facture")
-//    @ResponseBody
-//    public Facture addFacture(@RequestBody Facture f) {
-//        Facture facture = factureService.addFacture(f);
-//        return facture;
-//    }
-@PostMapping("/add-facture")
-@ResponseBody
-public Facture addFacture(@RequestBody Facture f) {
-    return factureService.addFacture(f);
-}
+    @PostMapping("/add-facture")
+    @ResponseBody
+    public Facture addFacture(@RequestBody Facture f) {
+        Facture facture = factureService.addFacture(f);
+        return facture;
+    }
+
 
     @PutMapping("/cancel-facture/{facture-id}")
     @ResponseBody
