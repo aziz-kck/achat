@@ -32,4 +32,11 @@ public class CategorieProduit implements Serializable {
 	@OneToMany(mappedBy = "categorieProduit")
 	@JsonIgnore
 	private Set<Produit> produits;
+
+	public void setId(Long categoryId) {
+	}
+
+	public Double getId() {
+		return null;
+	}
 }
