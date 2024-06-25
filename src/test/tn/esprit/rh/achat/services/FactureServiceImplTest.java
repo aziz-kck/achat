@@ -39,7 +39,7 @@ class FactureServiceImplTest {
     private FactureServiceImpl factureService;
 
     @Test
-    public void testRetrieveAllFactures() {
+     void testRetrieveAllFactures() {
         // Given
         Facture facture1 = new Facture();
         facture1.setIdFacture(1L);
@@ -61,7 +61,7 @@ class FactureServiceImplTest {
     }
 
     @Test
-    public void testAddFacture() {
+     void testAddFacture() {
         // Given
         Facture factureToAdd = new Facture();
 
@@ -77,7 +77,7 @@ class FactureServiceImplTest {
     }
 
     @Test
-    public void testCancelFacture() {
+     void testCancelFacture() {
         // Given
         Long factureId = 1L;
         Facture facture = new Facture();
@@ -93,7 +93,7 @@ class FactureServiceImplTest {
     }
 
     @Test
-    public void testRetrieveFacture() {
+     void testRetrieveFacture() {
         // Given
         Long factureId = 1L;
         Facture facture = new Facture();
@@ -109,7 +109,7 @@ class FactureServiceImplTest {
     }
 
     @Test
-    public void testGetFacturesByFournisseur() {
+     void testGetFacturesByFournisseur() {
         // Given
         Long fournisseurId = 1L;
         Fournisseur fournisseur = new Fournisseur();

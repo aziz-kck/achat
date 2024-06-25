@@ -30,7 +30,7 @@ class CategorieProduitServiceImplTest {
     @InjectMocks
     private CategorieProduitServiceImpl categorieProduitService;
     @Test
-    public void testAddCategorieProduit() {
+     void testAddCategorieProduit() {
         CategorieProduit categorieProduit = new CategorieProduit();
         categorieProduit.setCodeCategorie("Test CategorieProduit2");
         categorieProduitRepository.save(categorieProduit);
@@ -82,7 +82,7 @@ class CategorieProduitServiceImplTest {
 //    }
 
     @Test
-    public void testRetrieveCategorieProduit_NotFound() {
+     void testRetrieveCategorieProduit_NotFound() {
         // Given
         Long categoryId = 2L;
 
@@ -99,7 +99,7 @@ class CategorieProduitServiceImplTest {
         verify(categorieProduitRepositoryy, times(1)).findById(categoryId);
     }
     @Test
-    public void testUpdateCategorieProduit() {
+     void testUpdateCategorieProduit() {
         // Given
         CategorieProduit categorieProduitToUpdate = new CategorieProduit();
         categorieProduitToUpdate.setId(1L);
@@ -115,7 +115,7 @@ class CategorieProduitServiceImplTest {
     }
 
     @Test
-    public void testDeleteCategorieProduit() {
+     void testDeleteCategorieProduit() {
         // Given
         Long categoryId = 1L;
 

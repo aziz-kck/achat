@@ -27,7 +27,7 @@ class StockServiceImplTest {
     private StockServiceImpl stockService;
 
     @Test
-    public void testRetrieveAllStocks() {
+     void testRetrieveAllStocks() {
         // Given
         Stock stock1 = new Stock("Stock 1", 100, 50);
         Stock stock2 = new Stock("Stock 2", 150, 75);
@@ -49,7 +49,7 @@ class StockServiceImplTest {
     }
 
     @Test
-    public void testAddStock() {
+     void testAddStock() {
         // Given
         Stock newStock = new Stock("Nouveau Stock", 200, 100);
 
@@ -67,7 +67,7 @@ class StockServiceImplTest {
     }
 
     @Test
-    public void testDeleteStock() {
+     void testDeleteStock() {
         // Given
         Long stockId = 1L;
 
@@ -79,7 +79,7 @@ class StockServiceImplTest {
     }
 
     @Test
-    public void testUpdateStock() {
+     void testUpdateStock() {
         // Given
         Stock existingStock = new Stock("Stock existant", 300, 150);
 
@@ -97,7 +97,7 @@ class StockServiceImplTest {
     }
 
     @Test
-    public void testRetrieveStock() {
+     void testRetrieveStock() {
         // Given
         Long stockId = 1L;
         Stock mockStock = new Stock("Stock mock", 250, 125);
@@ -116,7 +116,7 @@ class StockServiceImplTest {
     }
 
     @Test
-    public void testRetrieveStatusStock() {
+     void testRetrieveStatusStock() {
         // Given
         Stock stock1 = new Stock("Stock 1", 40, 50); // Stock en rouge
         Stock stock2 = new Stock("Stock 2", 80, 100); // Stock OK

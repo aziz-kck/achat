@@ -33,7 +33,7 @@ class ProduitServiceImplTest {
     private ProduitServiceImpl produitService;
 
     @Test
-    public void testAddProduit() {
+     void testAddProduit() {
         // Given
         Produit produitToAdd = new Produit();
         produitToAdd.setCodeProduit("P001");
@@ -50,7 +50,7 @@ class ProduitServiceImplTest {
     }
 
     @Test
-    public void testDeleteProduit() {
+     void testDeleteProduit() {
         // Given
         Long produitIdToDelete = 1L;
 
@@ -62,7 +62,7 @@ class ProduitServiceImplTest {
     }
 
     @Test
-    public void testUpdateProduit() {
+     void testUpdateProduit() {
         // Given
         Produit produitToUpdate = new Produit();
         produitToUpdate.setIdProduit(1L);
@@ -79,7 +79,7 @@ class ProduitServiceImplTest {
     }
 
     @Test
-    public void testRetrieveProduit() {
+     void testRetrieveProduit() {
         // Given
         Long produitId = 1L;
         Produit expectedProduit = new Produit();
@@ -99,7 +99,7 @@ class ProduitServiceImplTest {
     }
 
     @Test
-    public void testAssignProduitToStock() {
+     void testAssignProduitToStock() {
         // Given
         Long produitId = 1L;
         Long stockId = 1L;

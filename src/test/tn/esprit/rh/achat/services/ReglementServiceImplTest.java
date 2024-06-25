@@ -38,7 +38,7 @@ class ReglementServiceImplTest {
     }
 
     @Test
-    public void testRetrieveAllReglements() {
+     void testRetrieveAllReglements() {
         List<Reglement> reglements = List.of(
                 new Reglement(1L, 100.0f, 50.0f, true, new Date(), null),
                 new Reglement(2L, 200.0f, 100.0f, false, new Date(), null)
@@ -53,7 +53,7 @@ class ReglementServiceImplTest {
     }
 
     @Test
-    public void testAddReglement() {
+     void testAddReglement() {
         Reglement reglement = new Reglement(1L, 100.0f, 50.0f, true, new Date(), null);
         when(reglementRepository.save(any(Reglement.class))).thenReturn(reglement);
 
@@ -65,7 +65,7 @@ class ReglementServiceImplTest {
     }
 
     @Test
-    public void testRetrieveReglement() {
+     void testRetrieveReglement() {
         Reglement reglement = new Reglement(1L, 100.0f, 50.0f, true, new Date(), null);
         when(reglementRepository.findById(1L)).thenReturn(Optional.of(reglement));
 
@@ -77,7 +77,7 @@ class ReglementServiceImplTest {
     }
 
     @Test
-    public void testRetrieveReglementByFacture() {
+     void testRetrieveReglementByFacture() {
         List<Reglement> reglements = List.of(
                 new Reglement(1L, 100.0f, 50.0f, true, new Date(), null),
                 new Reglement(2L, 200.0f, 100.0f, false, new Date(), null)
@@ -92,7 +92,7 @@ class ReglementServiceImplTest {
     }
 
     @Test
-    public void testGetChiffreAffaireEntreDeuxDate() {
+     void testGetChiffreAffaireEntreDeuxDate() {
         float expectedChiffreAffaire = 5000.0f;
         Date startDate = new Date();
         Date endDate = new Date();

@@ -39,7 +39,7 @@ class FournisseurServiceImplTest {
     }
 
     @Test
-    public void testRetrieveAllFournisseurs() {
+     void testRetrieveAllFournisseurs() {
         // Given
         List<Fournisseur> fournisseurs = new ArrayList<>();
         fournisseurs.add(new Fournisseur(1L, "F001", "Fournisseur 1", CategorieFournisseur.ORDINAIRE));
@@ -55,7 +55,7 @@ class FournisseurServiceImplTest {
         verify(fournisseurRepository, times(1)).findAll();
     }
     @Test
-    public void testAddFournisseur() {
+     void testAddFournisseur() {
         // Mock data
         Fournisseur fournisseur = new Fournisseur("CODE1", "Libellé 1", CategorieFournisseur.ORDINAIRE);
 
@@ -75,7 +75,7 @@ class FournisseurServiceImplTest {
         verify(fournisseurRepository, times(1)).save(any(Fournisseur.class));
     }
     @Test
-    public void testUpdateFournisseur() {
+     void testUpdateFournisseur() {
         // Mock data
         Fournisseur fournisseur = new Fournisseur(1L, "CODE1", "Libellé 1", CategorieFournisseur.CONVENTIONNE);
 
@@ -94,7 +94,7 @@ class FournisseurServiceImplTest {
     }
 
     @Test
-    public void testDeleteFournisseur() {
+     void testDeleteFournisseur() {
         // Mock data
         Long fournisseurId = 1L;
 

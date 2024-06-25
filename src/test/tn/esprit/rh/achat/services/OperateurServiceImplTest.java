@@ -31,7 +31,7 @@ class OperateurServiceImplTest {
     }
 
     @Test
-    public void testRetrieveAllOperateurs() {
+     void testRetrieveAllOperateurs() {
         // Mock data
         Operateur operateur1 = new Operateur(1L, "Nom1", "Prenom1", "password1");
         Operateur operateur2 = new Operateur(2L, "Nom2", "Prenom2", "password2");
@@ -54,7 +54,7 @@ class OperateurServiceImplTest {
     }
 
     @Test
-    public void testAddOperateur() {
+     void testAddOperateur() {
         // Mock data
         Operateur operateur = new Operateur(1L, "Prenom1", "password1");
 
@@ -74,7 +74,7 @@ class OperateurServiceImplTest {
     }
 
     @Test
-    public void testUpdateOperateur() {
+     void testUpdateOperateur() {
         // Mock data
         Operateur operateur = new Operateur(1L, "Nom1", "Prenom1", "password1");
 
@@ -94,7 +94,7 @@ class OperateurServiceImplTest {
     }
 
     @Test
-    public void testDeleteOperateur() {
+     void testDeleteOperateur() {
         // Mock data
         Long operateurId = 1L;
 

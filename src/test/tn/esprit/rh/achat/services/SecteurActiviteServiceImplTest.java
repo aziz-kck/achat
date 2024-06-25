@@ -32,7 +32,7 @@ class SecteurActiviteServiceImplTest {
     }
 
     @Test
-    public void testRetrieveAllSecteurActivite() {
+     void testRetrieveAllSecteurActivite() {
         List<SecteurActivite> secteurActivites = List.of(
                 new SecteurActivite(1L, "Code1", "Libelle1", null),
                 new SecteurActivite(2L, "Code2", "Libelle2", null)
@@ -47,7 +47,7 @@ class SecteurActiviteServiceImplTest {
     }
 
     @Test
-    public void testAddSecteurActivite() {
+     void testAddSecteurActivite() {
         SecteurActivite secteurActivite = new SecteurActivite(1L, "Code1", "Libelle1", null);
         when(secteurActiviteRepository.save(any(SecteurActivite.class))).thenReturn(secteurActivite);
 
@@ -59,7 +59,7 @@ class SecteurActiviteServiceImplTest {
     }
 
     @Test
-    public void testDeleteSecteurActivite() {
+     void testDeleteSecteurActivite() {
         Long id = 1L;
 
         secteurActiviteService.deleteSecteurActivite(id);
@@ -68,7 +68,7 @@ class SecteurActiviteServiceImplTest {
     }
 
     @Test
-    public void testUpdateSecteurActivite() {
+     void testUpdateSecteurActivite() {
         SecteurActivite secteurActivite = new SecteurActivite(1L, "Code1", "Libelle1", null);
         when(secteurActiviteRepository.save(any(SecteurActivite.class))).thenReturn(secteurActivite);
 
@@ -80,7 +80,7 @@ class SecteurActiviteServiceImplTest {
     }
 
     @Test
-    public void testRetrieveSecteurActivite() {
+     void testRetrieveSecteurActivite() {
         SecteurActivite secteurActivite = new SecteurActivite(1L, "Code1", "Libelle1", null);
         when(secteurActiviteRepository.findById(1L)).thenReturn(Optional.of(secteurActivite));
 
