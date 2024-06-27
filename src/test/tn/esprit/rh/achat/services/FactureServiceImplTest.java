@@ -25,13 +25,7 @@ class FactureServiceImplTest {
     private OperateurRepository operateurRepository;
 
     @Mock
-    private DetailFactureRepository detailFactureRepository;
-
-    @Mock
     private FournisseurRepository fournisseurRepository;
-
-    @Mock
-    private ProduitRepository produitRepository;
 
     @Mock
     private ReglementServiceImpl reglementService;
