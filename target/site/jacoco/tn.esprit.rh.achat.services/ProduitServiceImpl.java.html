@@ -25,46 +25,46 @@ import java.util.List;
 
 	@Override
 	public List&lt;Produit&gt; retrieveAllProduits() {
-<span class="nc" id="L28">		List&lt;Produit&gt; produits = (List&lt;Produit&gt;) produitRepository.findAll();</span>
-<span class="nc bnc" id="L29" title="All 2 branches missed.">		for (Produit produit : produits) {</span>
-<span class="nc" id="L30">			log.info(&quot; Produit : &quot; + produit);</span>
-<span class="nc" id="L31">		}</span>
-<span class="nc" id="L32">		return produits;</span>
+<span class="fc" id="L28">		List&lt;Produit&gt; produits = (List&lt;Produit&gt;) produitRepository.findAll();</span>
+<span class="fc bfc" id="L29" title="All 2 branches covered.">		for (Produit produit : produits) {</span>
+<span class="fc" id="L30">			log.info(&quot; Produit : &quot; + produit);</span>
+<span class="fc" id="L31">		}</span>
+<span class="fc" id="L32">		return produits;</span>
 	}
 
 	@Transactional
 	public Produit addProduit(Produit p) {
-<span class="nc" id="L37">		produitRepository.save(p);</span>
-<span class="nc" id="L38">		return p;</span>
+<span class="fc" id="L37">		produitRepository.save(p);</span>
+<span class="fc" id="L38">		return p;</span>
 	}
 
 	
 
 	@Override
 	public void deleteProduit(Long produitId) {
-<span class="nc" id="L45">		produitRepository.deleteById(produitId);</span>
-<span class="nc" id="L46">	}</span>
+<span class="fc" id="L45">		produitRepository.deleteById(produitId);</span>
+<span class="fc" id="L46">	}</span>
 
 	@Override
 	public Produit updateProduit(Produit p) {
-<span class="nc" id="L50">		return produitRepository.save(p);</span>
+<span class="fc" id="L50">		return produitRepository.save(p);</span>
 	}
 
 	@Override
 	public Produit retrieveProduit(Long produitId) {
-<span class="nc" id="L55">		Produit produit = produitRepository.findById(produitId).orElse(null);</span>
-<span class="nc" id="L56">		log.info(&quot;produit :&quot; + produit);</span>
-<span class="nc" id="L57">		return produit;</span>
+<span class="fc" id="L55">		Produit produit = produitRepository.findById(produitId).orElse(null);</span>
+<span class="fc" id="L56">		log.info(&quot;produit :&quot; + produit);</span>
+<span class="fc" id="L57">		return produit;</span>
 	}
 
 	@Override
 	public void assignProduitToStock(Long idProduit, Long idStock) {
-<span class="nc" id="L62">		Produit produit = produitRepository.findById(idProduit).orElse(null);</span>
-<span class="nc" id="L63">		Stock stock = stockRepository.findById(idStock).orElse(null);</span>
-<span class="nc" id="L64">		produit.setStock(stock);</span>
-<span class="nc" id="L65">		produitRepository.save(produit);</span>
+<span class="fc" id="L62">		Produit produit = produitRepository.findById(idProduit).orElse(null);</span>
+<span class="fc" id="L63">		Stock stock = stockRepository.findById(idStock).orElse(null);</span>
+<span class="fc" id="L64">		produit.setStock(stock);</span>
+<span class="fc" id="L65">		produitRepository.save(produit);</span>
 
-<span class="nc" id="L67">	}</span>
+<span class="fc" id="L67">	}</span>
 
 
 }
