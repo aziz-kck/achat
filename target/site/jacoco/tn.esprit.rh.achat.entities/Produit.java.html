@@ -19,7 +19,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-<span class="pc" id="L22">@Setter</span>
+<span class="nc" id="L22">@Setter</span>
 <span class="nc" id="L23">@AllArgsConstructor</span>
 <span class="fc" id="L24">@NoArgsConstructor</span>
 public class Produit implements Serializable {
@@ -40,7 +40,7 @@ public class Produit implements Serializable {
 <span class="nc" id="L40">	private Date dateDerniereModification;</span>
 	@ManyToOne
 	@JsonIgnore
-<span class="fc" id="L43">	private Stock stock;</span>
+<span class="nc" id="L43">	private Stock stock;</span>
 	@OneToMany(mappedBy = &quot;produit&quot;)
 	@JsonIgnore
 <span class="nc" id="L46">	private Set&lt;DetailFacture&gt; detailFacture;</span>

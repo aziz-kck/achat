@@ -40,18 +40,17 @@ import java.util.List;
 <span class="nc" id="L40">		return operateur;</span>
 	}
 
-	// http://localhost:8089/SpringMVC/operateur/remove-operateur/{operateur-id}
 	@DeleteMapping(&quot;/remove-operateur/{operateur-id}&quot;)
 	@ResponseBody
 	public void removeOperateur(@PathVariable(&quot;operateur-id&quot;) Long operateurId) {
-<span class="nc" id="L47">		operateurService.deleteOperateur(operateurId);</span>
-<span class="nc" id="L48">	}</span>
+<span class="nc" id="L46">		operateurService.deleteOperateur(operateurId);</span>
+<span class="nc" id="L47">	}</span>
 
 	// http://localhost:8089/SpringMVC/operateur/modify-operateur
 	@PutMapping(&quot;/modify-operateur&quot;)
 	@ResponseBody
 	public Operateur modifyOperateur(@RequestBody Operateur operateur) {
-<span class="nc" id="L54">		return operateurService.updateOperateur(operateur);</span>
+<span class="nc" id="L53">		return operateurService.updateOperateur(operateur);</span>
 	}
 
 	

@@ -41,35 +41,20 @@ import java.util.List;
 <span class="nc" id="L41">		return stock;</span>
 	}
 
-	// http://localhost:8089/SpringMVC/stock/remove-stock/{stock-id}
 	@DeleteMapping(&quot;/remove-stock/{stock-id}&quot;)
 	@ResponseBody
 	public void removeStock(@PathVariable(&quot;stock-id&quot;) Long stockId) {
-<span class="nc" id="L48">		stockService.deleteStock(stockId);</span>
-<span class="nc" id="L49">	}</span>
+<span class="nc" id="L47">		stockService.deleteStock(stockId);</span>
+<span class="nc" id="L48">	}</span>
 
 	// http://localhost:8089/SpringMVC/stock/modify-stock
 	@PutMapping(&quot;/modify-stock&quot;)
 	@ResponseBody
 	public Stock modifyStock(@RequestBody Stock stock) {
-<span class="nc" id="L55">		return stockService.updateStock(stock);</span>
+<span class="nc" id="L54">		return stockService.updateStock(stock);</span>
 	}
 
-	/*
-	 * Spring Scheduler : Comparer QteMin tolérée (à ne pa dépasser) avec
-	 * Quantité du stock et afficher sur console la liste des produits inférieur
-	 * au stock La fct schédulé doit obligatoirement etre sans paramètres et
-	 * sans retour (void)
-	 */
-	// http://localhost:8089/SpringMVC/stock/retrieveStatusStock
-	// @Scheduled(fixedRate = 60000)
-	// @Scheduled(fixedDelay = 60000)
-	//@Scheduled(cron = &quot;*/60 * * * * *&quot;)
-	//@GetMapping(&quot;/retrieveStatusStock&quot;)
-//	@ResponseBody
-//	public void retrieveStatusStock() {
-//		stockService.retrieveStatusStock();
-//	}
+
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

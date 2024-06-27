@@ -48,15 +48,14 @@ import java.util.List;
 <span class="nc" id="L48">        return reglementService.retrieveReglementByFacture(factureId);</span>
     }
 
-    // http://localhost:8089/SpringMVC/reglement/getChiffreAffaireEntreDeuxDate/{startDate}/{endDate}
     @GetMapping(value = &quot;/getChiffreAffaireEntreDeuxDate/{startDate}/{endDate}&quot;)
     public float getChiffreAffaireEntreDeuxDate(
             @PathVariable(name = &quot;startDate&quot;) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Date startDate,
             @PathVariable(name = &quot;endDate&quot;) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Date endDate) {
         try {
-<span class="nc" id="L57">            return reglementService.getChiffreAffaireEntreDeuxDate(startDate, endDate);</span>
-<span class="nc" id="L58">        } catch (Exception e) {</span>
-<span class="nc" id="L59">            return 0;</span>
+<span class="nc" id="L56">            return reglementService.getChiffreAffaireEntreDeuxDate(startDate, endDate);</span>
+<span class="nc" id="L57">        } catch (Exception e) {</span>
+<span class="nc" id="L58">            return 0;</span>
         }
     }
 }

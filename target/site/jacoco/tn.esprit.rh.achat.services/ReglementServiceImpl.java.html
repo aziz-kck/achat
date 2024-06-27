@@ -18,26 +18,26 @@ import java.util.List;
 	ReglementRepository reglementRepository;
 	@Override
 	public List&lt;Reglement&gt; retrieveAllReglements() {
-<span class="fc" id="L21">		return (List&lt;Reglement&gt;) reglementRepository.findAll();</span>
+<span class="nc" id="L21">		return (List&lt;Reglement&gt;) reglementRepository.findAll();</span>
 	}
 
 	@Override
 	public Reglement addReglement(Reglement r) {
-<span class="fc" id="L26">        reglementRepository.save(r);</span>
-<span class="fc" id="L27">		return r;</span>
+<span class="nc" id="L26">        reglementRepository.save(r);</span>
+<span class="nc" id="L27">		return r;</span>
 	}
 
 	@Override
 	public Reglement retrieveReglement(Long id) {
-<span class="fc" id="L32">		Reglement reglement = reglementRepository.findById(id).orElse(null);</span>
+<span class="nc" id="L32">		Reglement reglement = reglementRepository.findById(id).orElse(null);</span>
 		
-<span class="fc" id="L34">		return reglement;</span>
+<span class="nc" id="L34">		return reglement;</span>
 	}
 
 	@Override
 	public List&lt;Reglement&gt; retrieveReglementByFacture(Long idFacture) {
-<span class="fc" id="L39">		List&lt;Reglement&gt; reglements= reglementRepository.retrieveReglementByFacture(idFacture);</span>
-<span class="fc" id="L40">		return reglements;</span>
+<span class="nc" id="L39">		List&lt;Reglement&gt; reglements= reglementRepository.retrieveReglementByFacture(idFacture);</span>
+<span class="nc" id="L40">		return reglements;</span>
 		
 //		ou bien(Sans JPQL)
 //		Facture f= factureRepository.findById(idFacture).get();
@@ -46,7 +46,7 @@ import java.util.List;
 
 	@Override
 	public float getChiffreAffaireEntreDeuxDate(Date startDate, Date endDate) {
-<span class="fc" id="L49">		return reglementRepository.getChiffreAffaireEntreDeuxDate( startDate, endDate);</span>
+<span class="nc" id="L49">		return reglementRepository.getChiffreAffaireEntreDeuxDate( startDate, endDate);</span>
 	}
 
 }

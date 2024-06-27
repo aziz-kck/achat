@@ -35,37 +35,37 @@ import java.util.List;
 
 	@Transactional
 	public Produit addProduit(Produit p) {
-<span class="fc" id="L38">		produitRepository.save(p);</span>
-<span class="fc" id="L39">		return p;</span>
+<span class="nc" id="L38">		produitRepository.save(p);</span>
+<span class="nc" id="L39">		return p;</span>
 	}
 
 	
 
 	@Override
 	public void deleteProduit(Long produitId) {
-<span class="fc" id="L46">		produitRepository.deleteById(produitId);</span>
-<span class="fc" id="L47">	}</span>
+<span class="nc" id="L46">		produitRepository.deleteById(produitId);</span>
+<span class="nc" id="L47">	}</span>
 
 	@Override
 	public Produit updateProduit(Produit p) {
-<span class="fc" id="L51">		return produitRepository.save(p);</span>
+<span class="nc" id="L51">		return produitRepository.save(p);</span>
 	}
 
 	@Override
 	public Produit retrieveProduit(Long produitId) {
-<span class="fc" id="L56">		Produit produit = produitRepository.findById(produitId).orElse(null);</span>
-<span class="fc" id="L57">		log.info(&quot;produit :&quot; + produit);</span>
-<span class="fc" id="L58">		return produit;</span>
+<span class="nc" id="L56">		Produit produit = produitRepository.findById(produitId).orElse(null);</span>
+<span class="nc" id="L57">		log.info(&quot;produit :&quot; + produit);</span>
+<span class="nc" id="L58">		return produit;</span>
 	}
 
 	@Override
 	public void assignProduitToStock(Long idProduit, Long idStock) {
-<span class="fc" id="L63">		Produit produit = produitRepository.findById(idProduit).orElse(null);</span>
-<span class="fc" id="L64">		Stock stock = stockRepository.findById(idStock).orElse(null);</span>
-<span class="fc" id="L65">		produit.setStock(stock);</span>
-<span class="fc" id="L66">		produitRepository.save(produit);</span>
+<span class="nc" id="L63">		Produit produit = produitRepository.findById(idProduit).orElse(null);</span>
+<span class="nc" id="L64">		Stock stock = stockRepository.findById(idStock).orElse(null);</span>
+<span class="nc" id="L65">		produit.setStock(stock);</span>
+<span class="nc" id="L66">		produitRepository.save(produit);</span>
 
-<span class="fc" id="L68">	}</span>
+<span class="nc" id="L68">	}</span>
 
 
 }

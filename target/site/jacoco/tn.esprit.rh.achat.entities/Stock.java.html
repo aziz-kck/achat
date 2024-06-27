@@ -15,7 +15,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-<span class="pc" id="L18">@Setter</span>
+<span class="nc" id="L18">@Setter</span>
 <span class="nc" id="L19">@AllArgsConstructor</span>
 <span class="fc" id="L20">@NoArgsConstructor</span>
 public class Stock implements Serializable {
@@ -24,18 +24,18 @@ public class Stock implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 <span class="nc" id="L26">	private Long idStock;</span>
-<span class="fc" id="L27">	private String libelleStock;</span>
-<span class="fc" id="L28">	private Integer qte;</span>
-<span class="fc" id="L29">	private Integer qteMin;</span>
+<span class="nc" id="L27">	private String libelleStock;</span>
+<span class="nc" id="L28">	private Integer qte;</span>
+<span class="nc" id="L29">	private Integer qteMin;</span>
 	@OneToMany(mappedBy = &quot;stock&quot;)
 	@JsonIgnore
 <span class="nc" id="L32">	private Set&lt;Produit&gt; produits;</span>
 	public Stock(String libelleStock, Integer qte, Integer qteMin) {
-<span class="fc" id="L34">		super();</span>
-<span class="fc" id="L35">		this.libelleStock = libelleStock;</span>
-<span class="fc" id="L36">		this.qte = qte;</span>
-<span class="fc" id="L37">		this.qteMin = qteMin;</span>
-<span class="fc" id="L38">	}</span>
+<span class="nc" id="L34">		super();</span>
+<span class="nc" id="L35">		this.libelleStock = libelleStock;</span>
+<span class="nc" id="L36">		this.qte = qte;</span>
+<span class="nc" id="L37">		this.qteMin = qteMin;</span>
+<span class="nc" id="L38">	}</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
