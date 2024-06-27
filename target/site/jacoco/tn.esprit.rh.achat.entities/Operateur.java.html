@@ -19,7 +19,7 @@ import lombok.Setter;
 @Entity
 @Getter
 <span class="pc" id="L21">@Setter</span>
-<span class="nc" id="L22">@AllArgsConstructor</span>
+<span class="fc" id="L22">@AllArgsConstructor</span>
 <span class="fc" id="L23">@NoArgsConstructor</span>
 public class Operateur implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -27,10 +27,10 @@ public class Operateur implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 <span class="fc" id="L29">	private Long idOperateur;</span>
-<span class="nc" id="L30">	private String nom;</span>
-<span class="nc" id="L31">	private String prenom;</span>
+<span class="fc" id="L30">	private String nom;</span>
+<span class="fc" id="L31">	private String prenom;</span>
 	
-<span class="nc" id="L33">	private String password;</span>
+<span class="fc" id="L33">	private String password;</span>
 	@OneToMany
 	@JsonIgnore
 <span class="fc" id="L36">	private Set&lt;Facture&gt; factures;</span>

@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 achat,tn.esprit.rh.achat.entities,CategorieProduit,32,15,0,0,4,4,6,5,6,5
-achat,tn.esprit.rh.achat.entities,Operateur,43,13,0,0,4,4,8,4,8,4
+achat,tn.esprit.rh.achat.entities,Operateur,12,44,0,0,0,8,3,9,3,9
 achat,tn.esprit.rh.achat.entities,Facture,82,19,0,0,9,6,16,5,16,5
 achat,tn.esprit.rh.achat.entities,CategorieFournisseur,0,15,0,0,0,2,0,1,0,1
 achat,tn.esprit.rh.achat.entities,DetailFournisseur,59,7,0,0,7,2,12,2,12,2
@@ -20,7 +20,7 @@ achat,tn.esprit.rh.achat.controllers,ReglementRestController,32,3,0,0,9,1,5,1,5,
 achat,tn.esprit.rh.achat.controllers,StockRestController,28,3,0,0,8,1,5,1,5,1
 achat,tn.esprit.rh.achat,AchatApplication,5,3,0,0,2,1,1,1,1,1
 achat,tn.esprit.rh.achat.util,SpringFoxSwaggerConfig,0,80,0,0,0,22,0,6,0,6
-achat,tn.esprit.rh.achat.services,OperateurServiceImpl,34,3,0,0,9,1,5,1,5,1
+achat,tn.esprit.rh.achat.services,OperateurServiceImpl,0,37,0,0,0,10,0,6,0,6
 achat,tn.esprit.rh.achat.services,StockServiceImpl,136,7,4,0,33,2,8,2,6,2
 achat,tn.esprit.rh.achat.services,SecteurActiviteServiceImpl,34,3,0,0,9,1,5,1,5,1
 achat,tn.esprit.rh.achat.services,FactureServiceImpl,74,134,3,3,17,28,3,10,1,9
