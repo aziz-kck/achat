@@ -27,20 +27,20 @@ import java.util.List;
 
 	@Override
 	public void deleteCategorieProduit(Long id) {
-<span class="nc" id="L30">		categorieProduitRepository.deleteById(id);</span>
+<span class="fc" id="L30">		categorieProduitRepository.deleteById(id);</span>
 		
-<span class="nc" id="L32">	}</span>
+<span class="fc" id="L32">	}</span>
 
 	@Override
 	public CategorieProduit updateCategorieProduit(CategorieProduit cp) {
-<span class="nc" id="L36">		categorieProduitRepository.save(cp);</span>
-<span class="nc" id="L37">		return cp;</span>
+<span class="fc" id="L36">		categorieProduitRepository.save(cp);</span>
+<span class="fc" id="L37">		return cp;</span>
 	}
 
 	@Override
 	public CategorieProduit retrieveCategorieProduit(Long id) {
-<span class="nc" id="L42">		CategorieProduit categorieProduit = categorieProduitRepository.findById(id).orElse(null);</span>
-<span class="nc" id="L43">		return categorieProduit;</span>
+<span class="fc" id="L42">		CategorieProduit categorieProduit = categorieProduitRepository.findById(id).orElse(null);</span>
+<span class="fc" id="L43">		return categorieProduit;</span>
 	}
 
 }
