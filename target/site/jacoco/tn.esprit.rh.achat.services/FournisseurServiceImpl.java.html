@@ -15,13 +15,13 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-<span class="nc" id="L18">@Slf4j</span>
+<span class="fc" id="L18">@Slf4j</span>
 public class FournisseurServiceImpl implements IFournisseurService {
 
 	@Autowired
-<span class="nc" id="L22">	public FournisseurServiceImpl(FournisseurRepository fournisseurRepository) {</span>
-<span class="nc" id="L23">		this.fournisseurRepository = fournisseurRepository;</span>
-<span class="nc" id="L24">	}</span>
+<span class="fc" id="L22">	public FournisseurServiceImpl(FournisseurRepository fournisseurRepository) {</span>
+<span class="fc" id="L23">		this.fournisseurRepository = fournisseurRepository;</span>
+<span class="fc" id="L24">	}</span>
 	@Autowired
 	FournisseurRepository fournisseurRepository;
 	@Autowired
@@ -33,21 +33,21 @@ public class FournisseurServiceImpl implements IFournisseurService {
 
 	@Override
 	public List&lt;Fournisseur&gt; retrieveAllFournisseurs() {
-<span class="nc" id="L36">		List&lt;Fournisseur&gt; fournisseurs = (List&lt;Fournisseur&gt;) fournisseurRepository.findAll();</span>
-<span class="nc bnc" id="L37" title="All 2 branches missed.">		for (Fournisseur fournisseur : fournisseurs) {</span>
-<span class="nc" id="L38">			log.info(&quot; fournisseur : &quot; + fournisseur);</span>
-<span class="nc" id="L39">		}</span>
-<span class="nc" id="L40">		return fournisseurs;</span>
+<span class="fc" id="L36">		List&lt;Fournisseur&gt; fournisseurs = (List&lt;Fournisseur&gt;) fournisseurRepository.findAll();</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">		for (Fournisseur fournisseur : fournisseurs) {</span>
+<span class="fc" id="L38">			log.info(&quot; fournisseur : &quot; + fournisseur);</span>
+<span class="fc" id="L39">		}</span>
+<span class="fc" id="L40">		return fournisseurs;</span>
 	}
 
 
 	public Fournisseur addFournisseur(Fournisseur f /*Master*/) {
-<span class="nc" id="L45">		DetailFournisseur df= new DetailFournisseur();//Slave</span>
-<span class="nc" id="L46">		df.setDateDebutCollaboration(new Date()); //util</span>
+<span class="fc" id="L45">		DetailFournisseur df= new DetailFournisseur();//Slave</span>
+<span class="fc" id="L46">		df.setDateDebutCollaboration(new Date()); //util</span>
 		//On affecte le &quot;Slave&quot; au &quot;Master&quot;
-<span class="nc" id="L48">		f.setDetailFournisseur(df);	</span>
-<span class="nc" id="L49">		fournisseurRepository.save(f);</span>
-<span class="nc" id="L50">		return f;</span>
+<span class="fc" id="L48">		f.setDetailFournisseur(df);	</span>
+<span class="fc" id="L49">		fournisseurRepository.save(f);</span>
+<span class="fc" id="L50">		return f;</span>
 	}
 	
 	private DetailFournisseur  saveDetailFournisseur(Fournisseur f){
@@ -65,15 +65,15 @@ public class FournisseurServiceImpl implements IFournisseurService {
 
 	@Override
 	public void deleteFournisseur(Long fournisseurId) {
-<span class="nc" id="L68">		fournisseurRepository.deleteById(fournisseurId);</span>
+<span class="fc" id="L68">		fournisseurRepository.deleteById(fournisseurId);</span>
 
-<span class="nc" id="L70">	}</span>
+<span class="fc" id="L70">	}</span>
 
 	@Override
 	public Fournisseur retrieveFournisseur(Long fournisseurId) {
 
-<span class="nc" id="L75">		Fournisseur fournisseur = fournisseurRepository.findById(fournisseurId).orElse(null);</span>
-<span class="nc" id="L76">		return fournisseur;</span>
+<span class="fc" id="L75">		Fournisseur fournisseur = fournisseurRepository.findById(fournisseurId).orElse(null);</span>
+<span class="fc" id="L76">		return fournisseur;</span>
 	}
 
 	@Override

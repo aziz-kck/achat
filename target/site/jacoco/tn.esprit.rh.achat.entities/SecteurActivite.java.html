@@ -17,7 +17,7 @@ import lombok.Setter;
 @Getter
 <span class="nc" id="L18">@Setter</span>
 <span class="nc" id="L19">@AllArgsConstructor</span>
-<span class="nc" id="L20">@NoArgsConstructor</span>
+<span class="fc" id="L20">@NoArgsConstructor</span>
 public class SecteurActivite implements Serializable{
 	/**
 	 * 
@@ -31,5 +31,8 @@ public class SecteurActivite implements Serializable{
 	@ManyToMany(mappedBy=&quot;secteurActivites&quot;)
 	@JsonIgnore
 <span class="nc" id="L33">	private Set&lt;Fournisseur&gt; fournisseurs;</span>
+
+<span class="nc" id="L35">    public SecteurActivite(Long idSecteurActivite, String s) {</span>
+<span class="nc" id="L36">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

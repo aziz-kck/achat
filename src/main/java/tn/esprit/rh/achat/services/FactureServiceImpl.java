@@ -7,9 +7,7 @@ import tn.esprit.rh.achat.entities.*;
 import tn.esprit.rh.achat.repositories.*;
 
 import javax.transaction.Transactional;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Service
 @Slf4j
@@ -93,7 +91,11 @@ public class FactureServiceImpl implements IFactureService {
 	@Override
 	public List<Facture> getFacturesByFournisseur(Long idFournisseur) {
 		Fournisseur fournisseur = fournisseurRepository.findById(idFournisseur).orElse(null);
-		return (List<Facture>) fournisseur.getFactures();
+		if (fournisseur != null) {
+			return new ArrayList<>(fournisseur.getFactures());
+		} else {
+			return Collections.emptyList(); // Retourner une liste vide si le fournisseur n'existe pas
+		}
 	}
 
 	@Override
