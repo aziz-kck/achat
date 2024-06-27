@@ -77,7 +77,37 @@
       <recent name="tn.esprit.rh.achat.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProduitServiceImplTest">
+  <component name="RunManager" selected="JUnit.OperateurServiceImplTest">
+    <configuration name="CategorieProduitServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.CategorieProduitServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactureServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FactureServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FournisseurServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
@@ -89,38 +119,6 @@
       <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
       <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FournisseurServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FournisseurServiceImplTest.testAddFournisseur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="achat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FournisseurServiceImplTest" />
-      <option name="METHOD_NAME" value="testAddFournisseur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FournisseurServiceImplTest.testAssignSecteurActiviteToFournisseur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="achat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FournisseurServiceImplTest" />
-      <option name="METHOD_NAME" value="testAssignSecteurActiviteToFournisseur" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProduitServiceImplTest" />
         <item itemvalue="JUnit.OperateurServiceImplTest" />
+        <item itemvalue="JUnit.FactureServiceImplTest" />
         <item itemvalue="JUnit.FournisseurServiceImplTest" />
-        <item itemvalue="JUnit.FournisseurServiceImplTest.testAssignSecteurActiviteToFournisseur" />
-        <item itemvalue="JUnit.FournisseurServiceImplTest.testAddFournisseur" />
+        <item itemvalue="JUnit.CategorieProduitServiceImplTest" />
+        <item itemvalue="JUnit.ProduitServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
