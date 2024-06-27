@@ -43,6 +43,12 @@ public class Facture implements Serializable {
     @OneToMany(mappedBy="facture")
     @JsonIgnore
     private Set<Reglement> reglements;
+	public boolean isArchivee() {
+		return archivee;
+	}
 
+	public void setArchivee(boolean archivee) {
+		this.archivee = archivee;
+	}
 	
 }

@@ -21,7 +21,7 @@ import lombok.Setter;
 @Getter
 <span class="nc" id="L22">@Setter</span>
 <span class="nc" id="L23">@AllArgsConstructor</span>
-<span class="fc" id="L24">@NoArgsConstructor</span>
+<span class="nc" id="L24">@NoArgsConstructor</span>
 public class Facture implements Serializable {
 	private static final long serialVersionUID = 1L;
 
@@ -43,7 +43,13 @@ public class Facture implements Serializable {
     @OneToMany(mappedBy=&quot;facture&quot;)
     @JsonIgnore
 <span class="nc" id="L45">    private Set&lt;Reglement&gt; reglements;</span>
+	public boolean isArchivee() {
+<span class="nc" id="L47">		return archivee;</span>
+	}
 
+	public void setArchivee(boolean archivee) {
+<span class="nc" id="L51">		this.archivee = archivee;</span>
+<span class="nc" id="L52">	}</span>
 	
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

@@ -110,6 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactureServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.FactureServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FournisseurServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
@@ -159,6 +174,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CategorieProduitServiceImplTest" />
+        <item itemvalue="JUnit.FactureServiceImplTest" />
         <item itemvalue="JUnit.FournisseurServiceImplTest.testRetrieveFournisseur" />
         <item itemvalue="JUnit.FournisseurServiceImplTest" />
         <item itemvalue="JUnit.CategorieProduitServiceImplTest.testAddCategorieProduit" />
