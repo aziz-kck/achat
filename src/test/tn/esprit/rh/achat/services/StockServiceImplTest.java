@@ -5,14 +5,11 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
 import tn.esprit.rh.achat.entities.Stock;
 import tn.esprit.rh.achat.repositories.StockRepository;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -70,10 +67,8 @@ class StockServiceImplTest {
      void testDeleteStock() {
         // Given
         Long stockId = 1L;
-
         // When
         stockService.deleteStock(stockId);
-
         // Then
         verify(stockRepository).deleteById(stockId);
     }
@@ -82,12 +77,9 @@ class StockServiceImplTest {
      void testUpdateStock() {
         // Given
         Stock existingStock = new Stock("Stock existant", 300, 150);
-
         when(stockRepository.save(existingStock)).thenReturn(existingStock);
-
         // When
         Stock result = stockService.updateStock(existingStock);
-
         // Then
         assertEquals("Stock existant", result.getLibelleStock());
         assertEquals(300, result.getQte());
@@ -101,12 +93,9 @@ class StockServiceImplTest {
         // Given
         Long stockId = 1L;
         Stock mockStock = new Stock("Stock mock", 250, 125);
-
         when(stockRepository.findById(stockId)).thenReturn(Optional.of(mockStock));
-
         // When
         Stock result = stockService.retrieveStock(stockId);
-
         // Then
         assertEquals("Stock mock", result.getLibelleStock());
         assertEquals(250, result.getQte());

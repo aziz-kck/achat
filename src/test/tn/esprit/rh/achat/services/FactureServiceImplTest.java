@@ -6,10 +6,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
 import tn.esprit.rh.achat.entities.Facture;
 import tn.esprit.rh.achat.entities.Fournisseur;
-import tn.esprit.rh.achat.entities.Operateur;
 import tn.esprit.rh.achat.repositories.*;
 
 import java.util.*;
@@ -21,19 +19,11 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class FactureServiceImplTest {
 
-    @Autowired
-    private OperateurRepository operateurRepository;
     @Mock
     private FactureRepository factureRepository;
 
     @Mock
-    private DetailFactureRepository detailFactureRepository;
-
-    @Mock
     private FournisseurRepository fournisseurRepository;
-
-    @Mock
-    private ProduitRepository produitRepository;
 
     @InjectMocks
     private FactureServiceImpl factureService;
@@ -109,7 +99,7 @@ class FactureServiceImplTest {
     }
 
     @Test
-     void testGetFacturesByFournisseur() {
+    void testGetFacturesByFournisseur() {
         // Given
         Long fournisseurId = 1L;
         Fournisseur fournisseur = new Fournisseur();
