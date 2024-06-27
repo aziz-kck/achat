@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tn.esprit.rh.achat.services.CategorieProduitServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.413 s - in tn.esprit.rh.achat.services.CategorieProduitServiceImplTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.404 s - in tn.esprit.rh.achat.services.CategorieProduitServiceImplTest
